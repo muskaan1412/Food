@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
+header{
+    font-family: 'ROBOTO',sans-serif ;
+  
+}
+body{
+ background-color: #000;
+}
+.mainhead
+{
+    margin: 50px 200px 20px 200px;
+    padding: 2px;
+    border: 2px solid;
+    font-size: 35px;
+    background-color: lightyellow;
+    text-shadow: 6px 3px 5px grey;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.mainhead:hover
+{
+    background-color: cyan;
+}
+.himg
+{
+  max-width: 160px;
+    float: left;
+    margin: -12px -270px 10px 20px;
+}
+.himg2
+{
+    max-width: 175px;
+    float: right;
+    margin: -10px 17px 10px -200px;
+}
+.box.mytextarea
+{
+    width: 89%;
+    height: 35px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: black;
+    margin: 0px 0px 0px 65px;
+}
+
+
+.box:hover
+{
+    background-color: rgb(157, 247, 247);
+}
+.mytextarea:hover{
+    background-color: rgb(157, 247, 247);
+}
+
+    .iii{
+        height: 250px;
+    width: 333px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    }
+      article
+    {
+        max-width: 25%;
+        display: inline-block;
+        border: 3px #000 solid;
+        margin: 25px;
+    padding: 10px;
+    background-color: lightcyan;
+    border-radius: 15px;
+    transition: all 1s;
+    text-shadow: 6px 3px 5px silver;
+}
+article:hover
+{
+    background-color: cyan;
+ 
+}
+
